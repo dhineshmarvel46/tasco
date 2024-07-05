@@ -1,0 +1,358 @@
+
+
+.name{
+    font-family:  sans-serif;
+    font-weight: 300px;
+    color: rgb(68, 92, 68);
+    padding: 10px 10px;
+    margin: 10px 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.btn{
+    background-color: rgb(249, 180, 51);
+    border-radius: 7px;
+    width: 90px;
+    height: 25px;
+    position: absolute;
+    right: 5px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.btn:hover{
+    opacity: 0.8;
+    scale: 1.1;
+    color: black;
+    font-weight: bolder;
+    border: none;
+    cursor: pointer;
+}
+
+.navbar{
+    width: 100%;
+    height: 50%;
+    background-color:black;
+
+}
+.list{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding: 10px 10px;
+    margin: 10px 10px;
+    color: whitesmoke;
+    justify-content: space-around;
+}
+.list:hover{
+    border-bottom: 2px solid white;
+    transition:  ease-in-out 0.1s;
+    
+}
+
+.listone{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding: 10px 10px;
+    margin: 10px 10px;
+    color: whitesmoke;
+    justify-content: space-around;
+    font-weight: bolder;
+    font-style: italic;
+    letter-spacing: 2px;
+}
+
+.dhinesh{
+    width: 100%;
+    height: 50%;
+    
+    background-color: rgb(212, 207, 207);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 30px;
+    position: relative;
+}
+
+.clkbtn{
+    position: absolute;
+    right: 105px;
+margin: 5px 5px;
+}
+
+.img{
+    width: 40%;
+    height: 25%;
+    border-radius: 7px;
+}
+.barista{
+    width: 100%;
+    height: 70%;
+    background-color: #EDEBE9;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.menuone{
+    width: 40%;
+    height: 40%;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    padding: 10px 10px ;
+    margin: 20px 20px;
+    border-radius: 3px;
+}
+.imgtwo{
+    width: 20%;
+    height: 20%;
+    border-radius: 999px;
+    
+}
+.imgtwo:hover{
+    border: 2px solid violet;
+}
+
+.veg{
+display: flex;
+flex-direction: row;
+padding: 5px 5px;
+margin: 5px 5px;
+}
+
+.dis{
+    color: #6c757d;
+    font-size: 12px;
+    padding: 4px 4px;
+}
+.disdiv{
+    display: flex;
+    flex-direction: row;
+    margin: 5px 5px;
+    justify-content: center;
+    align-items: center;
+}
+.prs{
+    display: inline-block;
+    margin-top: 80px;
+    
+}
+.additem{
+    display: inline-block;
+    margin-top:80px ;
+    margin-right: 10px;
+    background-color: #00754a;
+    border-radius: 13px;
+    padding: 7px 7px;color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+}
+.additem:hover{
+scale: 1.1;
+letter-spacing: 2px;
+background-color: #343a40;
+cursor: pointer;
+
+}
+.recommends{
+    width: 100%;
+    height: 50%;
+    background-color: #0b9764;
+    padding: 5px 5px;
+    margin: 10px 10px;
+}
+.baristah{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 5px;
+    border-radius: 10px;
+}
+
+.freeship{
+    width: 100%;
+    background-color: rgb(209, 216, 216);
+    margin: 10px 10px;
+    border: 2px solid rgb(120, 116, 116);
+    position: relative;
+}
+
+.freeimg{
+    width: 150px;
+    margin: 10px 10px;
+    justify-content: center;
+}
+.delv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.delpara{
+    display: flex;
+    align-items: center;
+    font-weight: 400px;
+    font-family:sans-serif;
+    
+}
+.abs{
+    position: absolute;
+    bottom: 105px;
+    left: 7px;
+}
+.discount{
+    background-color: red;
+    color:#ffff;
+    border-radius: 5px;
+    padding: 5px 5px;
+    font-family: Arial;
+transition: all ease 0.1s;
+}
+.discount:hover{
+    cursor: pointer;
+    background-color: black;
+    color:#ffff;
+    letter-spacing: 1px;
+}
+.oreodiv{
+    width: 60%;
+    background-color: #EDEBE9;
+    border: 5px solid black;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+.hdiv{
+    width: 100%;
+    background-color: #dfd2d2;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.coldimg{
+    width: 25%;
+    border-radius: 2px;
+}
+.imgdiv{
+     display: flex;
+    flex-direction: row;
+    align-items: center; 
+    
+}
+.freespan{
+    color: #6c757d;
+    font-size: 15px;
+    margin: 3px 3px;
+    text-transform: uppercase;
+}
+.rs{
+    font-weight: bolder;
+    font-size: large;
+    margin: 10px 10px;
+    
+}
+.discription{
+        text-transform: uppercase;
+    font-weight: bold;
+    margin: 10px 10px;}
+
+.item{
+background-color: #000000;
+height:fit-content ;
+height: 20px;
+width: 100.1%;
+text-align: center;
+color: #fff;
+padding: 2px 2px;
+
+
+}
+.item:hover
+{
+    cursor: pointer;
+    background-color: #ffffff;
+    color:black;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.iconone{
+    width: 15%;
+    height: 15%;
+    color: rgb(65, 210, 246);
+    margin-left: 75px;
+}
+
+.gridtry{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+}
+.titleone{
+    line-height: 1;
+    text-transform: uppercase;
+    font-weight: 400px;
+    padding: 5px 5px;
+    
+}
+.titledis{
+    line-height: 1;
+    padding: 5px 5px;
+    
+}
+.heading{
+    padding: 10px 10px;
+    line-height: 1;
+    font-size: large;
+    margin: 30px 30px;
+    
+    text-transform: uppercase;
+}
+.listicon{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px 10px;
+}
+.icontwo{
+    width: 15px;
+margin: 3px 3px;
+color:violet;
+    
+}
+.drinkimg{
+    width: 40%;
+    border-radius: 3px;
+}
+.chotu{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+}
+.latte{
+   margin-left: 47px;
+   font-weight: bold;
+   text-transform: uppercase;
+}
+.itemss{
+    background-color: #000000;
+border-radius: 10px;
+height: 20px;
+width: 27%;
+text-align: center;
+color: #fff;
+padding: 1px 1px;
+}
+.itemss:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+.design{
+    background-color: rgb(247, 239, 239);
+    border-radius: 6px;
+    padding: 3px 3px;
+}
